@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: n5g96IkWN4s2fR7NYjR+ESfu6cUiXemTXXrMJAYfUYYs5ZOu+nt3bX5e6Uf4l/qmIfb5rx9piTE3McJbgZH9OPkGxNBSr8eZUO76Q+f5ecL2/zGFJ9KS3KK0kWDHaboawxixfEqmhSoB4b8EpkrXRP0YB0kw2XyLaGUEyRMtx6iVam4/aWFL3VDn7kqzdbCxO5mzr/lUcTsVRU+412wOo8xCFl3muZM6E6cuDDqXURlHjKj0FpTcA1YuyAGxq7++lfMFLJCW9NwG9UAmKrpnxtD4pNZyJ/RkCZPmbqCSoRc5OrR/TgjTcecSGNXwqLzxQx+2pkkERzb8O1Nmc1JIeDlY2/p688FTJ8eGS8TmM9supkT+28OHL95j6tNgOA7xGNSQCL/OGgmoqVVU9Bw+bW20FH91qHELZI5EWEn6HVbQ/0etBuaus59RZHuK9tIX+oSJMz6zuBFhjl2moEiW7d3XGxx7oBRRditilarNx6w1Gup4iXcJoa2GVIonc4dfsWi2jtvfQYbkFYTjOuRnSv8b0NDH7il0M8ODGqwkDfjO2TtEjI3g74j+FN1Ezo8yme57Ip468OwD44sgUw6smvSLf8fE4y3ATDVupDXlUxc1gWG0/2E0I3v+VO5uGK+WwtR9VxgS7LgBbWwUm1sCCipCcC5vf30uwfKHbjsZc8M=
+  app: fierce-citadel-85176
+  on:
+    repo: saulebohoney/saule-thomas-todomvc
